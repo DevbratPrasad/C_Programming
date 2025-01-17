@@ -5,9 +5,9 @@ int main()
 	int a,i;
 	printf("Enter a:");
 	scanf("%d",&a);
-	for(i=1;1<=a;i++)
+	for(i=1;i<=a;i++)
 	{
-	    printf("%d-3d",fib(i));
+	    printf("%d",fib(i));
 	}
 	  return 0;
 }
